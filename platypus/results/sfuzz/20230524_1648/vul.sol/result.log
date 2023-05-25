@@ -1,0 +1,168 @@
+Extract contract TypeError: from /sb/vul.sol
+Extract contract Definition from /sb/vul.sol
+Extract contract of from /sb/vul.sol
+Extract contract base from /sb/vul.sol
+Extract contract has from /sb/vul.sol
+Extract contract to from /sb/vul.sol
+Extract contract precede from /sb/vul.sol
+Extract contract definition from /sb/vul.sol
+Extract contract of from /sb/vul.sol
+Extract contract derived from /sb/vul.sol
+Extract contract contract from /sb/vul.sol
+Extract contract --> from /sb/vul.sol
+Extract contract /sb/vul.sol:1231:5: from /sb/vul.sol
+cp: cannot create regular file '/home/contracts//sb/vul.sol:1231:5:.sol': No such file or directory
+Extract contract | from /sb/vul.sol
+Extract contract 1231 from /sb/vul.sol
+Extract contract | from /sb/vul.sol
+Extract contract IMasterPlatypusV4 from /sb/vul.sol
+Extract contract | from /sb/vul.sol
+Extract contract ^^^^^^^^^^^^^^^^^ from /sb/vul.sol
+Extracted 19 contract(s) from /sb/vul.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+--> contracts/--
+
+Warning: Source file does not specify required compiler version! Consider adding "pragma solidity ^0.8.20;"
+--> contracts/--
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/contract.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/derived.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/Definition.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/precede.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/base.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/1231.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/to.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/IMasterPlatypusV4.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/TypeError:.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/definition.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/of.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+./fuzzMe: line 14: contracts/: Is a directory
+./fuzzMe: line 14: .sol.json: command not found
+"contracts/" is not a valid file.
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/has.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Definition of base has to precede definition of derived contract
+    --> contracts/^^^^^^^^^^^^^^^^^.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.20+commit.a1b79de6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/NormalAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.20+commit.a1b79de6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/ReentrancyAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 19:    56 Aborted                 (core dumped) ./fuzzer --file contracts/-- --name -- assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker > .sol.json > --assets
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 20:    57 Aborted                 (core dumped) ./fuzzer --file contracts/contract.sol.json --name contract --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 21:    58 Aborted                 (core dumped) ./fuzzer --file contracts/derived.sol.json --name derived --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 22:    59 Aborted                 (core dumped) ./fuzzer --file contracts/Definition.sol.json --name Definition --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 23:    60 Aborted                 (core dumped) ./fuzzer --file contracts/precede.sol.json --name precede --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 24:    61 Aborted                 (core dumped) ./fuzzer --file contracts/base.sol.json --name base --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 25:    62 Aborted                 (core dumped) ./fuzzer --file contracts/1231.sol.json --name 1231 --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 26:    63 Aborted                 (core dumped) ./fuzzer --file contracts/to.sol.json --name to --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 27:    64 Aborted                 (core dumped) ./fuzzer --file contracts/IMasterPlatypusV4.sol.json --name IMasterPlatypusV4 --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 28:    65 Aborted                 (core dumped) ./fuzzer --file contracts/TypeError:.sol.json --name TypeError: --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 29:    66 Aborted                 (core dumped) ./fuzzer --file contracts/definition.sol.json --name definition --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 30:    67 Aborted                 (core dumped) ./fuzzer --file contracts/of.sol.json --name of --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+./fuzzMe: line 31: .sol.json: command not found
+./fuzzMe: line 31: --assets: command not found
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 32:    71 Aborted                 (core dumped) ./fuzzer --file contracts/has.sol.json --name has --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 33:    72 Aborted                 (core dumped) ./fuzzer --file contracts/^^^^^^^^^^^^^^^^^.sol.json --name ^^^^^^^^^^^^^^^^^ --assets assets/ --duration 29 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker

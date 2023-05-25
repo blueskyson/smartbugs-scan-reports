@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/vul.sol' '/sb/bin'",
+        "image": "smartbugs/smartcheck",
+        "mem_limit": "16g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmp8n38cw6q": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "./merged/vul.sol",
+    "platform": {
+        "cpu": "12th Gen Intel(R) Core(TM) i7-12650H",
+        "python": "3.10.6.final.0 (64 bit)",
+        "release": "5.19.0-41-generic",
+        "smartbugs": "2.0.7",
+        "system": "Linux",
+        "version": "#42~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 18 17:40:00 UTC 2"
+    },
+    "result": {
+        "duration": 4.024428606033325,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1684946912.3076546
+    },
+    "runid": "20230524_1648",
+    "solc": "0.8.20",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$BIN'",
+        "id": "smartcheck",
+        "image": "smartbugs/smartcheck",
+        "info": "Securify automatically checks for vulnerabilities and bad coding practices. It runs lexical and syntactical analysis on Solidity source code.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Smartcheck",
+        "origin": "https://github.com/smartdec/smartcheck",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": null
+    }
+}

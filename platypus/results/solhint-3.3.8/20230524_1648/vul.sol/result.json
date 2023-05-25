@@ -1,0 +1,486 @@
+{
+    "errors": [
+        "EXIT_CODE_1"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1,
+            "message": "Compiler version ^0.8.14 does not satisfy the ^0.5.8 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 32,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 81,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 85,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 123,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 127,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 62,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 127,
+            "message": "Code contains empty blocks",
+            "name": "no-empty-blocks"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 164,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 169,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 625,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 698,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 733,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 28,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 758,
+            "message": "Avoid to use low level calls.",
+            "name": "avoid-low-level-calls"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 759,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 829,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 51,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 832,
+            "message": "Avoid to use low level calls.",
+            "name": "avoid-low-level-calls"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 857,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 884,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 51,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 886,
+            "message": "Avoid to use low level calls.",
+            "name": "avoid-low-level-calls"
+        },
+        {
+            "column": 17,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 908,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 954,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 973,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 994,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1082,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1153,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1158,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 42,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1173,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 46,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1197,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 52,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1203,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 47,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1269,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 58,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1275,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 46,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1285,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 48,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1286,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 48,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1287,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1288,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 47,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1288,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1320,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1330,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 50,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1344,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1361,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 56,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1361,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1362,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 13,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1364,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 56,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1366,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 50,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1367,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1389,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 13,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1391,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 40,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1419,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 30,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1450,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 38,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1451,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 61,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1480,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 41,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1681,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 13,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1751,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 32,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1751,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 13,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1776,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 32,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1776,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1801,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/vul.sol",
+            "level": "warning",
+            "line": 1809,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 45,
+            "filename": "./merged/vul.sol",
+            "level": "error",
+            "line": 1878,
+            "message": "Use double quotes for string literals",
+            "name": "quotes"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-3.3.8",
+        "mode": "solidity",
+        "version": "2023/02/12"
+    }
+}

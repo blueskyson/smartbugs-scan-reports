@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/flattened.sol' '600' '/sb/bin'",
+        "image": "smartbugs/slither",
+        "mem_limit": "16g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpb3s2db0c": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "./flattened.sol",
+    "platform": {
+        "cpu": "12th Gen Intel(R) Core(TM) i7-12650H",
+        "python": "3.10.6.final.0 (64 bit)",
+        "release": "5.19.0-41-generic",
+        "smartbugs": "2.0.7",
+        "system": "Linux",
+        "version": "#42~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 18 17:40:00 UTC 2"
+    },
+    "result": {
+        "duration": 3.9604992866516113,
+        "exit_code": 255,
+        "logs": "result.log",
+        "output": null,
+        "start": 1684859737.604177
+    },
+    "runid": "20230523_1635",
+    "solc": "0.8.20",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN'",
+        "id": "slither",
+        "image": "smartbugs/slither",
+        "info": "Slither is a Solidity static analysis framework written in Python 3. It runs a suite of vulnerability detectors and prints visual information about contract details. Slither enables developers to find vulnerabilities, enhance their code comphrehension, and quickly prototype custom analyses.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Slither",
+        "origin": "https://github.com/crytic/slither",
+        "output": "/output.json",
+        "parser": "parser.py",
+        "solc": true,
+        "version": null
+    }
+}

@@ -1,0 +1,430 @@
+{
+    "errors": [
+        "EXIT_CODE_1"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "./merged/Exchange.sol",
+            "level": "error",
+            "line": 1,
+            "message": "Compiler version 0.8.3 does not satisfy the ^0.5.8 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 223,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 390,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 472,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 514,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 550,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 629,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 13,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 694,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 711,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 717,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1001,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1002,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1045,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1075,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1076,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 24,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1111,
+            "message": "Code contains empty blocks",
+            "name": "no-empty-blocks"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1227,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1232,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 51,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1615,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 60,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1665,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 47,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1668,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 46,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1790,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 56,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1839,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 13,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 1866,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2001,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2028,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2055,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2059,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 62,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2059,
+            "message": "Code contains empty blocks",
+            "name": "no-empty-blocks"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2100,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2105,
+            "message": "Function name must be in mixedCase",
+            "name": "func-name-mixedcase"
+        },
+        {
+            "column": 9,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2143,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2179,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2181,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2183,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2201,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2201,
+            "message": "Constant name must be in capitalized SNAKE_CASE",
+            "name": "const-name-snakecase"
+        },
+        {
+            "column": 14,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2213,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 48,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2283,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 44,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2304,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2362,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2362,
+            "message": "Constant name must be in capitalized SNAKE_CASE",
+            "name": "const-name-snakecase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2363,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2363,
+            "message": "Constant name must be in capitalized SNAKE_CASE",
+            "name": "const-name-snakecase"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2364,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2364,
+            "message": "Constant name must be in capitalized SNAKE_CASE",
+            "name": "const-name-snakecase"
+        },
+        {
+            "column": 24,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2470,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 32,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2502,
+            "message": "Avoid to use low level calls.",
+            "name": "avoid-low-level-calls"
+        },
+        {
+            "column": 20,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2513,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 17,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2633,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 35,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2950,
+            "message": "Avoid making time-based decisions in your business logic",
+            "name": "not-rely-on-time"
+        },
+        {
+            "column": 5,
+            "filename": "./merged/Exchange.sol",
+            "level": "warning",
+            "line": 2959,
+            "message": "When fallback is not payable you will not be able to receive ether",
+            "name": "payable-fallback"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-3.3.8",
+        "mode": "solidity",
+        "version": "2023/02/12"
+    }
+}

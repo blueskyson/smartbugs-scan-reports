@@ -1,0 +1,209 @@
+{
+    "errors": [
+        "when sending a str, it must be a hex string. Got: '0x60806040523"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "contract": "Address",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "Address",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "Address",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "FeeCalculator",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "FeeCalculator",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "FeeCalculator",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "LibAccess",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "LibAccess",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "LibAccess",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "LibConfig",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "LibConfig",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "LibConfig",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "LibStorage",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "LibStorage",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "LibStorage",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "ProxyAdmin",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "ProxyAdmin",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "ProxyAdmin",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "SafeERC20",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "SafeERC20",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "SafeERC20",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "SafeMath",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "SafeMath",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "SafeMath",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "SettlementAdmin",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "SettlementAdmin",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "SettlementAdmin",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "TransparentUpgradeableProxy",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "TransparentUpgradeableProxy",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "TransparentUpgradeableProxy",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "Types",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "Types",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "Types",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "UpgradeableProxy",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "UpgradeableProxy",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "UpgradeableProxy",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        },
+        {
+            "contract": "console",
+            "filename": "./flattened.sol",
+            "name": "Not destructible (no self-destruct)"
+        },
+        {
+            "contract": "console",
+            "filename": "./flattened.sol",
+            "name": "No Ether leak (no send)"
+        },
+        {
+            "contract": "console",
+            "filename": "./flattened.sol",
+            "name": "No Ether lock (Ether refused)"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "maian",
+        "mode": "solidity",
+        "version": "2022/11/11"
+    }
+}

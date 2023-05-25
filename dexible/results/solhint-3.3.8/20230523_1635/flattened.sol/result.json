@@ -1,0 +1,358 @@
+{
+    "errors": [
+        "EXIT_CODE_1"
+    ],
+    "fails": [],
+    "findings": [
+        {
+            "column": 1,
+            "filename": "./flattened.sol",
+            "level": "error",
+            "line": 7,
+            "message": "Compiler version ^0.8.0 does not satisfy the ^0.5.8 semver requirement",
+            "name": "compiler-version"
+        },
+        {
+            "column": 5,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 183,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 186,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 189,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 194,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 198,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 202,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 1,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 210,
+            "message": "Contract name must be in CamelCase",
+            "name": "contract-name-camelcase"
+        },
+        {
+            "column": 2,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 211,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 3,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 216,
+            "message": "Avoid to use inline assembly. It is acceptable only in rare cases",
+            "name": "no-inline-assembly"
+        },
+        {
+            "column": 8,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 218,
+            "message": "Variable \"r\" is unused",
+            "name": "no-unused-vars"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 1799,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2081,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 49,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2168,
+            "message": "Code contains empty blocks",
+            "name": "no-empty-blocks"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2230,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2287,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2312,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2336,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2430,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2534,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2587,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2615,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2630,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 1,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2673,
+            "message": "Code contains empty blocks",
+            "name": "no-empty-blocks"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 2800,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3053,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 13,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3083,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 7,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3124,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 7,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3127,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 26,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3131,
+            "message": "Avoid to use low level calls.",
+            "name": "avoid-low-level-calls"
+        },
+        {
+            "column": 30,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3156,
+            "message": "Code contains empty blocks",
+            "name": "no-empty-blocks"
+        },
+        {
+            "column": 5,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3193,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 5,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3196,
+            "message": "Explicitly mark visibility of state",
+            "name": "state-visibility"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3238,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3263,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3264,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 52,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3356,
+            "message": "Variable \"router\" is unused",
+            "name": "no-unused-vars"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3364,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3374,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 9,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3377,
+            "message": "Provide an error message for require",
+            "name": "reason-string"
+        },
+        {
+            "column": 21,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3381,
+            "message": "Avoid to use low level calls.",
+            "name": "avoid-low-level-calls"
+        },
+        {
+            "column": 13,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3401,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        },
+        {
+            "column": 13,
+            "filename": "./flattened.sol",
+            "level": "warning",
+            "line": 3409,
+            "message": "Error message for require is too long",
+            "name": "reason-string"
+        }
+    ],
+    "infos": [],
+    "parser": {
+        "id": "solhint-3.3.8",
+        "mode": "solidity",
+        "version": "2023/02/12"
+    }
+}

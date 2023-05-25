@@ -1,0 +1,16 @@
+Arguments passed: ['/home/lin/Desktop/web3/smartbugs/sb/__main__.py', '-t', 'all', '-f', './flattened.sol', '--processes', '16', '--mem-limit', '16g', '--timeout', '600']
+Settings: {files: [(None, './flattened.sol')], main: False, runtime: False, tools: ['all'], runid: 20230523_1635, overwrite: False, processes: 16, timeout: 600, cpu_quota: None, mem_limit: 16g, results: results/${TOOL}/20230523_1635/${FILENAME}, log: results/logs/20230523_1635.log, json: False, sarif: False, quiet: False}
+Starting task 1/13: honeybadger and ./flattened.sol
+Starting task 2/13: oyente and ./flattened.sol
+Starting task 3/13: sfuzz and ./flattened.sol
+Starting task 4/13: securify and ./flattened.sol
+Starting task 6/13: solhint-3.3.8 and ./flattened.sol
+Starting task 7/13: osiris and ./flattened.sol
+Starting task 8/13: mythril-0.23.15 and ./flattened.sol
+Starting task 5/13: conkas and ./flattened.sol
+Starting task 10/13: slither and ./flattened.sol
+Starting task 11/13: confuzzius and ./flattened.sol
+Starting task 9/13: maian and ./flattened.sol
+Starting task 12/13: smartcheck and ./flattened.sol
+Starting task 13/13: manticore-0.3.7 and ./flattened.sol
+Analysis completed in 0:07:47.

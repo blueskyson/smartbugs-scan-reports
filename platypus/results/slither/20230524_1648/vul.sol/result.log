@@ -1,0 +1,11 @@
+INFO:Slither:Compilation warnings/errors on /sb/vul.sol:
+[91mError: Definition of base has to precede definition of derived contract[0m
+    --> /sb/vul.sol:1231:5:
+     |
+1231 |     IMasterPlatypusV4
+     |     ^^^^^^^^^^^^^^^^^
+
+
+INFO:SlitherSolcParsing:No contract were found in /sb/vul.sol, check the correct compilation
+WARNING:Slither:[91mNo contract was analyzed[0m
+INFO:Slither:/sb/vul.sol analyzed (0 contracts), 0 result(s) found

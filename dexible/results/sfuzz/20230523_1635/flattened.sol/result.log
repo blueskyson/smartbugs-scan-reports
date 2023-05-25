@@ -1,0 +1,602 @@
+Extract contract Address from /sb/flattened.sol
+Extract contract FeeCalculator from /sb/flattened.sol
+Extract contract LibAccess from /sb/flattened.sol
+Extract contract LibConfig from /sb/flattened.sol
+Extract contract LibStorage from /sb/flattened.sol
+Extract contract ProxyAdmin from /sb/flattened.sol
+Extract contract SafeERC20 from /sb/flattened.sol
+Extract contract SafeMath from /sb/flattened.sol
+Extract contract Settlement from /sb/flattened.sol
+Extract contract SettlementAdmin from /sb/flattened.sol
+Extract contract TransparentUpgradeableProxy from /sb/flattened.sol
+Extract contract Types from /sb/flattened.sol
+Extract contract UpgradeableProxy from /sb/flattened.sol
+Extract contract ZrxRouter from /sb/flattened.sol
+Extract contract console from /sb/flattened.sol
+Extracted 15 contract(s) from /sb/flattened.sol
+[0;32m> Created "fuzzMe"[0m
+[0;32m> To fuzz contracts:[0m
+  chmod +x fuzzMe
+  ./fuzzMe
+Warning: This declaration shadows an existing declaration.
+    --> contracts/SafeERC20.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/SafeERC20.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SafeERC20.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SafeERC20.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SafeERC20.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/SafeERC20.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/console.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/console.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/console.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/console.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/console.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/console.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/LibConfig.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/LibConfig.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibConfig.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibConfig.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibConfig.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/LibConfig.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/TransparentUpgradeableProxy.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/TransparentUpgradeableProxy.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/TransparentUpgradeableProxy.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/TransparentUpgradeableProxy.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/TransparentUpgradeableProxy.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/TransparentUpgradeableProxy.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/FeeCalculator.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/FeeCalculator.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/FeeCalculator.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/FeeCalculator.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/FeeCalculator.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/FeeCalculator.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/LibStorage.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/LibStorage.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibStorage.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibStorage.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibStorage.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/LibStorage.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/Types.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/Types.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Types.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Types.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Types.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/Types.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/UpgradeableProxy.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/UpgradeableProxy.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/UpgradeableProxy.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/UpgradeableProxy.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/UpgradeableProxy.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/UpgradeableProxy.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/Address.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/Address.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Address.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Address.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Address.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/Address.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/SettlementAdmin.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/SettlementAdmin.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SettlementAdmin.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SettlementAdmin.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SettlementAdmin.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/SettlementAdmin.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/SafeMath.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/SafeMath.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SafeMath.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SafeMath.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/SafeMath.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/SafeMath.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/ProxyAdmin.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/ProxyAdmin.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/ProxyAdmin.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/ProxyAdmin.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/ProxyAdmin.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/ProxyAdmin.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/ZrxRouter.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/ZrxRouter.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/ZrxRouter.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/ZrxRouter.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/ZrxRouter.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/ZrxRouter.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/LibAccess.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/LibAccess.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibAccess.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibAccess.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/LibAccess.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/LibAccess.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Warning: This declaration shadows an existing declaration.
+    --> contracts/Settlement.sol:3368:55:
+     |
+3368 |         (address swapTarget, address allowanceTarget, bytes memory data) = abi.decode(data, (address,address,bytes));
+     |                                                       ^^^^^^^^^^^^^^^^^
+Note: The shadowed declaration is here:
+    --> contracts/Settlement.sol:3363:70:
+     |
+3363 |     function _trySwap(Types.Order calldata order, IDexRouter router, bytes calldata data) external returns (bool success, string memory failReason) {
+     |                                                                      ^^^^^^^^^^^^^^^^^^^
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Settlement.sol:2043:5:
+     |
+2043 |     constructor () internal {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Settlement.sol:2385:5:
+     |
+2385 |     constructor(address _logic, bytes memory _data) public payable {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+    --> contracts/Settlement.sol:2472:5:
+     |
+2472 |     constructor(address _logic, address admin_, bytes memory _data) public payable UpgradeableProxy(_logic, _data) {
+     |     ^ (Relevant source part starts here and spans across multiple lines).
+
+Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.
+    --> contracts/Settlement.sol:3356:52:
+     |
+3356 |     function _preActions(Types.Order memory order, IDexRouter router) internal {
+     |                                                    ^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.20+commit.a1b79de6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/NormalAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+Error: Source file requires different compiler version (current compiler is 0.8.20+commit.a1b79de6.Linux.g++) - note that nightly builds are considered to be strictly less than the released version
+ --> assets/ReentrancyAttacker.sol:1:1:
+  |
+1 | pragma solidity ^0.4.24;
+  | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 19:    49 Aborted                 (core dumped) ./fuzzer --file contracts/SafeERC20.sol.json --name SafeERC20 --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 20:    50 Aborted                 (core dumped) ./fuzzer --file contracts/console.sol.json --name console --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 21:    51 Aborted                 (core dumped) ./fuzzer --file contracts/LibConfig.sol.json --name LibConfig --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 22:    52 Aborted                 (core dumped) ./fuzzer --file contracts/TransparentUpgradeableProxy.sol.json --name TransparentUpgradeableProxy --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 23:    53 Aborted                 (core dumped) ./fuzzer --file contracts/FeeCalculator.sol.json --name FeeCalculator --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 24:    54 Aborted                 (core dumped) ./fuzzer --file contracts/LibStorage.sol.json --name LibStorage --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 25:    55 Aborted                 (core dumped) ./fuzzer --file contracts/Types.sol.json --name Types --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 26:    56 Aborted                 (core dumped) ./fuzzer --file contracts/UpgradeableProxy.sol.json --name UpgradeableProxy --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 27:    57 Aborted                 (core dumped) ./fuzzer --file contracts/Address.sol.json --name Address --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 28:    58 Aborted                 (core dumped) ./fuzzer --file contracts/SettlementAdmin.sol.json --name SettlementAdmin --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 29:    59 Aborted                 (core dumped) ./fuzzer --file contracts/SafeMath.sol.json --name SafeMath --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 30:    60 Aborted                 (core dumped) ./fuzzer --file contracts/ProxyAdmin.sol.json --name ProxyAdmin --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 31:    61 Aborted                 (core dumped) ./fuzzer --file contracts/ZrxRouter.sol.json --name ZrxRouter --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 32:    62 Aborted                 (core dumped) ./fuzzer --file contracts/LibAccess.sol.json --name LibAccess --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::json_parser::json_parser_error> >'
+  what():  assets/NormalAttacker.sol.json(1): expected value
+./fuzzMe: line 33:    63 Aborted                 (core dumped) ./fuzzer --file contracts/Settlement.sol.json --name Settlement --assets assets/ --duration 38 --mode 1 --reporter 1 --log 0 --attacker ReentrancyAttacker
